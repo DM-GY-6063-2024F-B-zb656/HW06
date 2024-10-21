@@ -2,6 +2,8 @@ I used the MoMA's [Artist's data JSON](https://github.com/MuseumofModernArt/coll
 
 My goal was to create a visualization of the Nationality field to represent how often different nationalities appear in the MoMA's collection. I wanted to use every instance of every nationality in the data, which originally seemed like it was going to take a lot of manual variable creation. 
 
+![data](./20241020_215958.jpg)
+
 My original thought was to create a circle for each nationality and adjust their size based on the nationality's frequency. Since I wanted to pull non-numerical data from my list and we didn't cover the specifics of that in class, there was some troubleshooting involved.
 
 My first (unsuccessful) attempt was this (with `let American = 0` as a global variable):
